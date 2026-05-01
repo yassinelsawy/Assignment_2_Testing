@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="TutorialsNinja Test Suite" verbose="1" parallel="none">
+
+    <listeners>
+        <listener class-name="io.qameta.allure.testng.AllureTestNg"/>
+    </listeners>
+
+    <test name="Registration Tests">
+        <classes>
+            <class name="com.tutorialsninja.tests.RegistrationTest"/>
+        </classes>
+    </test>
+
+    <test name="Login Tests">
+        <classes>
+            <class name="com.tutorialsninja.tests.LoginTest"/>
+        </classes>
+    </test>
+
+    <test name="Currency Tests">
+        <classes>
+            <class name="com.tutorialsninja.tests.CurrencyTest"/>
+        </classes>
+    </test>
+
+    <test name="Breadcrumb Tests">
+        <classes>
+            <class name="com.tutorialsninja.tests.BreadcrumbTest"/>
+        </classes>
+    </test>
+
+    <test name="Sort Tests">
+        <classes>
+            <class name="com.tutorialsninja.tests.SortTest"/>
+        </classes>
+    </test>
+
+    <test name="Search Tests">
+        <classes>
+            <class name="com.tutorialsninja.tests.SearchTest"/>
+            <class name="com.tutorialsninja.tests.SubcategorySearchTest"/>
+        </classes>
+    </test>
+
+    <test name="Cart Tests">
+        <classes>
+            <class name="com.tutorialsninja.tests.CartTest"/>
+        </classes>
+    </test>
+
+    <test name="Checkout Tests">
+        <classes>
+            <class name="com.tutorialsninja.tests.CheckoutTest"/>
+        </classes>
+    </test>
+
+</suite>
