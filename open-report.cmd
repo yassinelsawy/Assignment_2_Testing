@@ -1,14 +1,20 @@
 @echo off
 setlocal
 
-set "MVN_HOME=%USERPROFILE%\maven\apache-maven-3.9.9"
-set "PATH=%MVN_HOME%\bin;%PATH%"
+set "ALLURE_HOME=%USERPROFILE%\allure\allure-2.25.0"
+set "PATH=%ALLURE_HOME%\bin;%PATH%"
 
-if not exist "target\allure-results" (
-    echo No allure-results found. Run tests first with run-tests-with-report.cmd
+if not exist "%ALLURE_HOME%\bin\allure.bat" (
+    echo Allure CLI not found. Run run-tests-with-report.cmd first to install it.
     exit /b 1
 )
 
-call mvn allure:serve
+if not exist "target\allure-results" (
+    echo No allure-results found. Run tests first.
+    exit /b 1
+)
+
+echo Opening Allure report...
+call allure serve target\allure-results
 
 endlocal
