@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [TutorialsNinja Test Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <listeners>
+    <listener class-name="io.qameta.allure.testng.AllureTestNg"/>
+  </listeners>
+  <test thread-count="5" name="Currency Tests(failed)" verbose="0">
+    <classes>
+      <class name="com.tutorialsninja.tests.CurrencyTest">
+        <methods>
+          <include name="testChangeCurrency" invocation-numbers="0"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.tutorialsninja.tests.CurrencyTest -->
+    </classes>
+  </test> <!-- Currency Tests(failed) -->
+  <test thread-count="5" name="Search Tests(failed)" verbose="0">
+    <classes>
+      <class name="com.tutorialsninja.tests.SubcategorySearchTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="testSubcategorySearch" invocation-numbers="0"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.tutorialsninja.tests.SubcategorySearchTest -->
+    </classes>
+  </test> <!-- Search Tests(failed) -->
+  <test thread-count="5" name="Cart Tests(failed)" verbose="0">
+    <classes>
+      <class name="com.tutorialsninja.tests.CartTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="testAddItemsToCart" invocation-numbers="0"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.tutorialsninja.tests.CartTest -->
+    </classes>
+  </test> <!-- Cart Tests(failed) -->
+  <test thread-count="5" name="Checkout Tests(failed)" verbose="0">
+    <classes>
+      <class name="com.tutorialsninja.tests.CheckoutTest">
+        <methods>
+          <include name="testNormalCheckout" invocation-numbers="0"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.tutorialsninja.tests.CheckoutTest -->
+    </classes>
+  </test> <!-- Checkout Tests(failed) -->
+</suite> <!-- Failed suite [TutorialsNinja Test Suite] -->

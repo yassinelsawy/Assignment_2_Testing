@@ -1,0 +1,788 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="13" passed="9" failed="4" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-05-01T04:13:19 EEST" name="TutorialsNinja Test Suite" finished-at="2026-05-01T04:15:58 EEST" duration-ms="158864">
+    <groups>
+    </groups>
+    <test started-at="2026-05-01T04:13:19 EEST" name="Registration Tests" finished-at="2026-05-01T04:13:44 EEST" duration-ms="25292">
+      <class name="com.tutorialsninja.tests.RegistrationTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.tutorialsninja.tests.RegistrationTest@36f1046f]" started-at="2026-05-01T04:13:20 EEST" name="setUp" finished-at="2026-05-01T04:13:24 EEST" duration-ms="3449" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testRegistrationWithErrors(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.tutorialsninja.tests.RegistrationTest@36f1046f]" started-at="2026-05-01T04:13:24 EEST" name="testRegistrationWithErrors" description="TC02 - Registration with errors" data-provider="registrationInvalidData" finished-at="2026-05-01T04:13:28 EEST" duration-ms="4169" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Alex]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Brown]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[abc]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRegistrationWithErrors -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.tutorialsninja.tests.RegistrationTest@36f1046f]" started-at="2026-05-01T04:13:28 EEST" name="tearDown" finished-at="2026-05-01T04:13:28 EEST" duration-ms="280" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testRegistrationWithErrors status=SUCCESS method=RegistrationTest.testRegistrationWithErrors(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.tutorialsninja.tests.RegistrationTest@36f1046f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.tutorialsninja.tests.RegistrationTest@36f1046f]" started-at="2026-05-01T04:13:28 EEST" name="setUp" finished-at="2026-05-01T04:13:31 EEST" duration-ms="2575" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testRegistrationWithoutErrors(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.tutorialsninja.tests.RegistrationTest@36f1046f]" started-at="2026-05-01T04:13:31 EEST" name="testRegistrationWithoutErrors" description="TC01 - Registration without errors" data-provider="registrationValidData" finished-at="2026-05-01T04:13:35 EEST" duration-ms="4021" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[John]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Doe]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[johndoe]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[0123456789]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Test@1234]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Test@1234]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRegistrationWithoutErrors -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.tutorialsninja.tests.RegistrationTest@36f1046f]" started-at="2026-05-01T04:13:35 EEST" name="tearDown" finished-at="2026-05-01T04:13:35 EEST" duration-ms="267" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testRegistrationWithoutErrors status=SUCCESS method=RegistrationTest.testRegistrationWithoutErrors(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.tutorialsninja.tests.RegistrationTest@36f1046f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.tutorialsninja.tests.RegistrationTest@36f1046f]" started-at="2026-05-01T04:13:35 EEST" name="setUp" finished-at="2026-05-01T04:13:39 EEST" duration-ms="3654" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testRegistrationWithoutErrors(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.tutorialsninja.tests.RegistrationTest@36f1046f]" started-at="2026-05-01T04:13:39 EEST" name="testRegistrationWithoutErrors" description="TC01 - Registration without errors" data-provider="registrationValidData" finished-at="2026-05-01T04:13:44 EEST" duration-ms="5196" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Jane]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Smith]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[janesmith]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[0987654321]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Pass@5678]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Pass@5678]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRegistrationWithoutErrors -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.tutorialsninja.tests.RegistrationTest@36f1046f]" started-at="2026-05-01T04:13:44 EEST" name="tearDown" finished-at="2026-05-01T04:13:44 EEST" duration-ms="260" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testRegistrationWithoutErrors status=SUCCESS method=RegistrationTest.testRegistrationWithoutErrors(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.tutorialsninja.tests.RegistrationTest@36f1046f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.tutorialsninja.tests.RegistrationTest -->
+    </test> <!-- Registration Tests -->
+    <test started-at="2026-05-01T04:13:44 EEST" name="Login Tests" finished-at="2026-05-01T04:14:00 EEST" duration-ms="15369">
+      <class name="com.tutorialsninja.tests.LoginTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.tutorialsninja.tests.LoginTest@77134e08]" started-at="2026-05-01T04:13:44 EEST" name="setUp" finished-at="2026-05-01T04:13:48 EEST" duration-ms="3319" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testInvalidLogin(java.lang.String,java.lang.String)[pri:0, instance:com.tutorialsninja.tests.LoginTest@77134e08]" started-at="2026-05-01T04:13:48 EEST" name="testInvalidLogin" description="TC04 - Invalid login" data-provider="invalidLoginData" finished-at="2026-05-01T04:13:49 EEST" duration-ms="1574" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[wrong@example.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[wrongpassword123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInvalidLogin -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.tutorialsninja.tests.LoginTest@77134e08]" started-at="2026-05-01T04:13:49 EEST" name="tearDown" finished-at="2026-05-01T04:13:50 EEST" duration-ms="226" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testInvalidLogin status=SUCCESS method=LoginTest.testInvalidLogin(java.lang.String,java.lang.String)[pri:0, instance:com.tutorialsninja.tests.LoginTest@77134e08] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.tutorialsninja.tests.LoginTest@77134e08]" started-at="2026-05-01T04:13:50 EEST" name="setUp" finished-at="2026-05-01T04:13:52 EEST" duration-ms="2676" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testInvalidLogin(java.lang.String,java.lang.String)[pri:0, instance:com.tutorialsninja.tests.LoginTest@77134e08]" started-at="2026-05-01T04:13:52 EEST" name="testInvalidLogin" description="TC04 - Invalid login" data-provider="invalidLoginData" finished-at="2026-05-01T04:13:54 EEST" duration-ms="1742" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[notregistered@test.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[badpass]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInvalidLogin -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.tutorialsninja.tests.LoginTest@77134e08]" started-at="2026-05-01T04:13:54 EEST" name="tearDown" finished-at="2026-05-01T04:13:54 EEST" duration-ms="227" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testInvalidLogin status=SUCCESS method=LoginTest.testInvalidLogin(java.lang.String,java.lang.String)[pri:0, instance:com.tutorialsninja.tests.LoginTest@77134e08] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.tutorialsninja.tests.LoginTest@77134e08]" started-at="2026-05-01T04:13:54 EEST" name="setUp" finished-at="2026-05-01T04:13:57 EEST" duration-ms="2367" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testValidLogin(java.lang.String,java.lang.String)[pri:0, instance:com.tutorialsninja.tests.LoginTest@77134e08]" started-at="2026-05-01T04:13:57 EEST" name="testValidLogin" description="TC03 - Valid login" data-provider="validLoginData" finished-at="2026-05-01T04:13:59 EEST" duration-ms="2703" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[yassinelsawy22@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Ya$$in1212005]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testValidLogin -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.tutorialsninja.tests.LoginTest@77134e08]" started-at="2026-05-01T04:13:59 EEST" name="tearDown" finished-at="2026-05-01T04:14:00 EEST" duration-ms="283" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testValidLogin status=SUCCESS method=LoginTest.testValidLogin(java.lang.String,java.lang.String)[pri:0, instance:com.tutorialsninja.tests.LoginTest@77134e08] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.tutorialsninja.tests.LoginTest -->
+    </test> <!-- Login Tests -->
+    <test started-at="2026-05-01T04:14:00 EEST" name="Currency Tests" finished-at="2026-05-01T04:14:25 EEST" duration-ms="25346">
+      <class name="com.tutorialsninja.tests.CurrencyTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.tutorialsninja.tests.CurrencyTest@de77232]" started-at="2026-05-01T04:14:00 EEST" name="setUp" finished-at="2026-05-01T04:14:02 EEST" duration-ms="2282" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testChangeCurrency(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.tutorialsninja.tests.CurrencyTest@de77232]" started-at="2026-05-01T04:14:02 EEST" name="testChangeCurrency" description="TC05 - Change currency" data-provider="currencyData" finished-at="2026-05-01T04:14:25 EEST" duration-ms="22564" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[yassinelsawy22@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Ya$$in1212005]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[EUR]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[€]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for element to be clickable: By.linkText: Show All Desktops (tried for 15 second(s) with 500 milliseconds interval)
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 147.0.7727.138, chrome: {chromedriverVersion: 147.0.7727.117 (474cc805edd..., userDataDir: C:\Users\ASUS\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61485}, goog:processID: 22836, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61485/devtoo..., se:cdpVersion: 147.0.7727.138, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 57fa49a4ec69b3a03c31132ce5ffa717]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.linkText: Show All Desktops (tried for 15 second(s) with 500 milliseconds interval)
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 147.0.7727.138, chrome: {chromedriverVersion: 147.0.7727.117 (474cc805edd..., userDataDir: C:\Users\ASUS\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61485}, goog:processID: 22836, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61485/devtoo..., se:cdpVersion: 147.0.7727.138, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 57fa49a4ec69b3a03c31132ce5ffa717
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+at com.tutorialsninja.pages.HomePage.clickDesktopsShowAll(HomePage.java:83)
+at com.tutorialsninja.tests.CurrencyTest.testChangeCurrency(CurrencyTest.java:35)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+at org.testng.TestRunner.privateRun(TestRunner.java:819)
+at org.testng.TestRunner.run(TestRunner.java:619)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+at org.testng.TestNG.runSuites(TestNG.java:1134)
+at org.testng.TestNG.run(TestNG.java:1101)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testChangeCurrency -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.tutorialsninja.tests.CurrencyTest@de77232]" started-at="2026-05-01T04:14:25 EEST" name="tearDown" finished-at="2026-05-01T04:14:25 EEST" duration-ms="387" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testChangeCurrency status=FAILURE method=CurrencyTest.testChangeCurrency(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.tutorialsninja.tests.CurrencyTest@de77232] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.tutorialsninja.tests.CurrencyTest -->
+    </test> <!-- Currency Tests -->
+    <test started-at="2026-05-01T04:14:25 EEST" name="Breadcrumb Tests" finished-at="2026-05-01T04:14:31 EEST" duration-ms="6379">
+      <class name="com.tutorialsninja.tests.BreadcrumbTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.tutorialsninja.tests.BreadcrumbTest@58e85c6f]" started-at="2026-05-01T04:14:25 EEST" name="setUp" finished-at="2026-05-01T04:14:28 EEST" duration-ms="2821" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testBreadcrumbAndSidebar(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.tutorialsninja.tests.BreadcrumbTest@58e85c6f]" started-at="2026-05-01T04:14:28 EEST" name="testBreadcrumbAndSidebar" description="TC06 - Check breadcrumb and left side menu" data-provider="breadcrumbData" finished-at="2026-05-01T04:14:31 EEST" duration-ms="3238" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[yassinelsawy22@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Ya$$in1212005]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Tablets]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Tablets]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBreadcrumbAndSidebar -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.tutorialsninja.tests.BreadcrumbTest@58e85c6f]" started-at="2026-05-01T04:14:31 EEST" name="tearDown" finished-at="2026-05-01T04:14:31 EEST" duration-ms="250" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testBreadcrumbAndSidebar status=SUCCESS method=BreadcrumbTest.testBreadcrumbAndSidebar(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.tutorialsninja.tests.BreadcrumbTest@58e85c6f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.tutorialsninja.tests.BreadcrumbTest -->
+    </test> <!-- Breadcrumb Tests -->
+    <test started-at="2026-05-01T04:14:31 EEST" name="Sort Tests" finished-at="2026-05-01T04:14:42 EEST" duration-ms="10115">
+      <class name="com.tutorialsninja.tests.SortTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.tutorialsninja.tests.SortTest@2264e43c]" started-at="2026-05-01T04:14:32 EEST" name="setUp" finished-at="2026-05-01T04:14:34 EEST" duration-ms="2516" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testSortByName(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.tutorialsninja.tests.SortTest@2264e43c]" started-at="2026-05-01T04:14:34 EEST" name="testSortByName" description="TC07 - Sort by name" data-provider="sortData" finished-at="2026-05-01T04:14:41 EEST" duration-ms="7060" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[yassinelsawy22@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Ya$$in1212005]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Phones & PDAs]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSortByName -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.tutorialsninja.tests.SortTest@2264e43c]" started-at="2026-05-01T04:14:41 EEST" name="tearDown" finished-at="2026-05-01T04:14:42 EEST" duration-ms="439" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testSortByName status=SUCCESS method=SortTest.testSortByName(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.tutorialsninja.tests.SortTest@2264e43c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.tutorialsninja.tests.SortTest -->
+    </test> <!-- Sort Tests -->
+    <test started-at="2026-05-01T04:14:42 EEST" name="Search Tests" finished-at="2026-05-01T04:14:56 EEST" duration-ms="14542">
+      <class name="com.tutorialsninja.tests.SearchTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.tutorialsninja.tests.SearchTest@281ce6bb]" started-at="2026-05-01T04:14:42 EEST" name="setUp" finished-at="2026-05-01T04:14:44 EEST" duration-ms="2788" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testSearchByName(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.tutorialsninja.tests.SearchTest@281ce6bb]" started-at="2026-05-01T04:14:44 EEST" name="testSearchByName" description="TC08 - Search by name" data-provider="searchData" finished-at="2026-05-01T04:14:49 EEST" duration-ms="4298" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[yassinelsawy22@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Ya$$in1212005]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Mac]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSearchByName -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.tutorialsninja.tests.SearchTest@281ce6bb]" started-at="2026-05-01T04:14:49 EEST" name="tearDown" finished-at="2026-05-01T04:14:49 EEST" duration-ms="219" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testSearchByName status=SUCCESS method=SearchTest.testSearchByName(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.tutorialsninja.tests.SearchTest@281ce6bb] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.tutorialsninja.tests.SearchTest -->
+      <class name="com.tutorialsninja.tests.SubcategorySearchTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.tutorialsninja.tests.SubcategorySearchTest@30d25c03]" started-at="2026-05-01T04:14:49 EEST" name="setUp" finished-at="2026-05-01T04:14:52 EEST" duration-ms="2703" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testSubcategorySearch(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.tutorialsninja.tests.SubcategorySearchTest@30d25c03]" started-at="2026-05-01T04:14:52 EEST" name="testSubcategorySearch" description="TC09 - Search in subcategories" data-provider="subcategorySearchData" finished-at="2026-05-01T04:14:56 EEST" duration-ms="4124" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[yassinelsawy22@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Ya$$in1212005]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Apple]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Components]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Apple Cinema 30]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Expected no products when searching 'Apple' in 'Components' without subcategories expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Expected no products when searching 'Apple' in 'Components' without subcategories expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertTrue(Assert.java:57)
+at com.tutorialsninja.tests.SubcategorySearchTest.testSubcategorySearch(SubcategorySearchTest.java:40)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+at org.testng.TestRunner.privateRun(TestRunner.java:819)
+at org.testng.TestRunner.run(TestRunner.java:619)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+at org.testng.TestNG.runSuites(TestNG.java:1134)
+at org.testng.TestNG.run(TestNG.java:1101)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSubcategorySearch -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.tutorialsninja.tests.SubcategorySearchTest@30d25c03]" started-at="2026-05-01T04:14:56 EEST" name="tearDown" finished-at="2026-05-01T04:14:56 EEST" duration-ms="299" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testSubcategorySearch status=FAILURE method=SubcategorySearchTest.testSubcategorySearch(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.tutorialsninja.tests.SubcategorySearchTest@30d25c03] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.tutorialsninja.tests.SubcategorySearchTest -->
+    </test> <!-- Search Tests -->
+    <test started-at="2026-05-01T04:14:56 EEST" name="Cart Tests" finished-at="2026-05-01T04:15:32 EEST" duration-ms="35675">
+      <class name="com.tutorialsninja.tests.CartTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.tutorialsninja.tests.CartTest@3ac8cf9b]" started-at="2026-05-01T04:14:56 EEST" name="setUp" finished-at="2026-05-01T04:14:59 EEST" duration-ms="2831" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testAddItemsToCart(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.tutorialsninja.tests.CartTest@3ac8cf9b]" started-at="2026-05-01T04:14:59 EEST" name="testAddItemsToCart" description="TC10 - Add items to shopping cart and compare totals" data-provider="cartData" finished-at="2026-05-01T04:15:31 EEST" duration-ms="32443" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[yassinelsawy22@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Ya$$in1212005]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Samsung Galaxy Tab 10.1]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[HP LP3065]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for visibility of element located by By.cssSelector: #content .table tfoot tr:last-child td:last-child (tried for 15 second(s) with 500 milliseconds interval)
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 147.0.7727.138, chrome: {chromedriverVersion: 147.0.7727.117 (474cc805edd..., userDataDir: C:\Users\ASUS\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62231}, goog:processID: 34704, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62231/devtoo..., se:cdpVersion: 147.0.7727.138, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 220ad7e03897445ee6084f04080046bf]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.cssSelector: #content .table tfoot tr:last-child td:last-child (tried for 15 second(s) with 500 milliseconds interval)
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 147.0.7727.138, chrome: {chromedriverVersion: 147.0.7727.117 (474cc805edd..., userDataDir: C:\Users\ASUS\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62231}, goog:processID: 34704, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62231/devtoo..., se:cdpVersion: 147.0.7727.138, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 220ad7e03897445ee6084f04080046bf
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+at com.tutorialsninja.pages.CartPage.getCartTotal(CartPage.java:39)
+at com.tutorialsninja.tests.CartTest.testAddItemsToCart(CartTest.java:53)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+at org.testng.TestRunner.privateRun(TestRunner.java:819)
+at org.testng.TestRunner.run(TestRunner.java:619)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+at org.testng.TestNG.runSuites(TestNG.java:1134)
+at org.testng.TestNG.run(TestNG.java:1101)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddItemsToCart -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.tutorialsninja.tests.CartTest@3ac8cf9b]" started-at="2026-05-01T04:15:31 EEST" name="tearDown" finished-at="2026-05-01T04:15:32 EEST" duration-ms="337" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testAddItemsToCart status=FAILURE method=CartTest.testAddItemsToCart(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.tutorialsninja.tests.CartTest@3ac8cf9b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.tutorialsninja.tests.CartTest -->
+    </test> <!-- Cart Tests -->
+    <test started-at="2026-05-01T04:15:32 EEST" name="Checkout Tests" finished-at="2026-05-01T04:15:58 EEST" duration-ms="26013">
+      <class name="com.tutorialsninja.tests.CheckoutTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.tutorialsninja.tests.CheckoutTest@ce9b9a9]" started-at="2026-05-01T04:15:32 EEST" name="setUp" finished-at="2026-05-01T04:15:34 EEST" duration-ms="2446" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testNormalCheckout(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.tutorialsninja.tests.CheckoutTest@ce9b9a9]" started-at="2026-05-01T04:15:34 EEST" name="testNormalCheckout" description="TC11 - Normal checkout process and confirm order" data-provider="checkoutData" finished-at="2026-05-01T04:15:57 EEST" duration-ms="23128" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[yassinelsawy22@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Ya$$in1212005]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[iPod Shuffle]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Yassin]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Elsawy]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[123 Test Street]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Los Angeles]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[90001]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[United States]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[California]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for element to be clickable: By.linkText: Show All MP3 Players (tried for 15 second(s) with 500 milliseconds interval)
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 147.0.7727.138, chrome: {chromedriverVersion: 147.0.7727.117 (474cc805edd..., userDataDir: C:\Users\ASUS\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56198}, goog:processID: 15128, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56198/devtoo..., se:cdpVersion: 147.0.7727.138, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 1d027af1582123171679be6c7f7b8f95]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.linkText: Show All MP3 Players (tried for 15 second(s) with 500 milliseconds interval)
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 147.0.7727.138, chrome: {chromedriverVersion: 147.0.7727.117 (474cc805edd..., userDataDir: C:\Users\ASUS\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56198}, goog:processID: 15128, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56198/devtoo..., se:cdpVersion: 147.0.7727.138, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 1d027af1582123171679be6c7f7b8f95
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+at com.tutorialsninja.pages.HomePage.clickMp3PlayersShowAll(HomePage.java:91)
+at com.tutorialsninja.tests.CheckoutTest.testNormalCheckout(CheckoutTest.java:34)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+at org.testng.TestRunner.privateRun(TestRunner.java:819)
+at org.testng.TestRunner.run(TestRunner.java:619)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+at org.testng.TestNG.runSuites(TestNG.java:1134)
+at org.testng.TestNG.run(TestNG.java:1101)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testNormalCheckout -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.tutorialsninja.tests.CheckoutTest@ce9b9a9]" started-at="2026-05-01T04:15:57 EEST" name="tearDown" finished-at="2026-05-01T04:15:58 EEST" duration-ms="350" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testNormalCheckout status=FAILURE method=CheckoutTest.testNormalCheckout(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.tutorialsninja.tests.CheckoutTest@ce9b9a9] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.tutorialsninja.tests.CheckoutTest -->
+    </test> <!-- Checkout Tests -->
+  </suite> <!-- TutorialsNinja Test Suite -->
+</testng-results>
