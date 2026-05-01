@@ -1,0 +1,10 @@
+com\tutorialsninja\tests\SearchTest.class
+com\tutorialsninja\tests\CartTest.class
+com\tutorialsninja\tests\CheckoutTest.class
+com\tutorialsninja\tests\LoginTest.class
+com\tutorialsninja\tests\CurrencyTest.class
+com\tutorialsninja\base\BaseTest.class
+com\tutorialsninja\tests\RegistrationTest.class
+com\tutorialsninja\tests\SubcategorySearchTest.class
+com\tutorialsninja\tests\BreadcrumbTest.class
+com\tutorialsninja\tests\SortTest.class
