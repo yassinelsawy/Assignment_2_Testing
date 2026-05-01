@@ -1,8 +1,6 @@
 @echo off
 setlocal
 
-pushd "%~dp0"
-
 set "ALLURE_HOME=%USERPROFILE%\allure\allure-2.25.0"
 set "PATH=%ALLURE_HOME%\bin;%PATH%"
 
@@ -19,5 +17,4 @@ if not exist "target\allure-results" (
 echo Opening Allure report...
 call allure serve target\allure-results
 
-popd
 endlocal

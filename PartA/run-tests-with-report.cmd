@@ -1,8 +1,6 @@
 @echo off
 setlocal
 
-pushd "%~dp0"
-
 set "MVN_HOME=%USERPROFILE%\maven\apache-maven-3.9.9"
 set "ALLURE_HOME=%USERPROFILE%\allure\allure-2.25.0"
 set "PATH=%MVN_HOME%\bin;%ALLURE_HOME%\bin;%PATH%"
@@ -37,5 +35,4 @@ if exist "target\allure-results" (
     exit /b 1
 )
 
-popd
 endlocal

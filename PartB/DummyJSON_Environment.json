@@ -1,0 +1,17 @@
+{
+  "name": "DummyJSON - 20230465",
+  "values": [
+    {
+      "key": "base_url",
+      "value": "https://dummyjson.com",
+      "type": "default",
+      "enabled": true
+    },
+    {
+      "key": "auth_token",
+      "value": "",
+      "type": "default",
+      "enabled": true
+    }
+  ]
+}
